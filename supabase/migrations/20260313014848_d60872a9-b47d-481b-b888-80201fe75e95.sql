@@ -1,0 +1,1 @@
+ALTER TABLE public.pixel_events ADD COLUMN visitor_id text DEFAULT NULL;

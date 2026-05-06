@@ -1,0 +1,1 @@
+ALTER TABLE public.checkout_settings ADD COLUMN IF NOT EXISTS crisp_website_id text DEFAULT NULL;

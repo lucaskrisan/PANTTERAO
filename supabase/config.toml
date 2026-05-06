@@ -1,0 +1,103 @@
+project_id = "vipltojtcrqatwvzobro"
+
+[functions]
+  [functions.appsell-notify]
+    verify_jwt = false
+  [functions.bin-lookup]
+    verify_jwt = false
+  [functions.asaas-webhook]
+    verify_jwt = false
+  [functions.auth-email-hook]
+    verify_jwt = false
+  [functions.billing-notify]
+    verify_jwt = false
+  [functions.billing-recharge]
+    verify_jwt = false
+  [functions.billing-validate-card]
+    verify_jwt = false
+  [functions.check-order-status]
+    verify_jwt = false
+  [functions.cloudflare-add-hostname]
+    verify_jwt = false
+  [functions.cloudflare-check-status]
+    verify_jwt = false
+  [functions.cloudflare-remove-hostname]
+    verify_jwt = false
+  [functions.create-asaas-payment]
+    verify_jwt = false
+  [functions.create-mercadopago-payment]
+    verify_jwt = false
+  [functions.create-pix-payment]
+    verify_jwt = false
+  [functions.create-stripe-payment]
+    verify_jwt = false
+  [functions.delete-account]
+    verify_jwt = false
+  [functions.facebook-capi]
+    verify_jwt = false
+  [functions.fire-webhooks]
+    verify_jwt = false
+  [functions.generate-email-copy]
+    verify_jwt = false
+  [functions.mercadopago-webhook]
+    verify_jwt = false
+  [functions.meta-ads]
+    verify_jwt = false
+  [functions.meta-ads-alerts]
+    verify_jwt = false
+  [functions.meta-diagnostics]
+    verify_jwt = false
+  [functions.meta-emq]
+    verify_jwt = false
+  [functions.meta-emq-monitor]
+    verify_jwt = false
+  [functions.pagarme-webhook]
+    verify_jwt = false
+  [functions.process-email-queue]
+    verify_jwt = true
+  [functions.process-upsell]
+    verify_jwt = false
+  [functions.product-moderation-email]
+    verify_jwt = false
+  [functions.pwa-manifest]
+    verify_jwt = false
+  [functions.reconcile-orders]
+    verify_jwt = false
+  [functions.resend-webhook]
+    verify_jwt = false
+  [functions.resolve-user-destination]
+    verify_jwt = false
+  [functions.send-access-link]
+    verify_jwt = false
+  [functions.send-pix-reminder]
+    verify_jwt = false
+  [functions.stripe-webhook]
+    verify_jwt = false
+  [functions.stripe-register-domain]
+    verify_jwt = false
+  [functions.test-push]
+    verify_jwt = false
+  [functions.verify-turnstile]
+    verify_jwt = false
+  [functions.webhook-retry]
+    verify_jwt = false
+  [functions.webhook-test]
+    verify_jwt = false
+  [functions.connect-whatsapp]
+    verify_jwt = false
+  [functions.check-whatsapp-status]
+    verify_jwt = false
+  [functions.disconnect-whatsapp]
+    verify_jwt = false
+  [functions.send-whatsapp-message]
+    verify_jwt = false
+  [functions.whatsapp-webhook]
+    verify_jwt = false
+  [functions.send-abandoned-cart-email]
+    verify_jwt = false
+  [functions.abandoned-cart-email-recovery-cron]
+    verify_jwt = false
+  [functions.landing-health-check]
+    verify_jwt = false
+  [functions.get-receipt]
+    verify_jwt = false

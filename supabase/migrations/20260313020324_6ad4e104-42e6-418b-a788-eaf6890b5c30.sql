@@ -1,0 +1,1 @@
+DELETE FROM pixel_events WHERE visitor_id LIKE 'sim_%' OR customer_name ILIKE '%teste%';

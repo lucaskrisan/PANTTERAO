@@ -1,0 +1,1 @@
+UPDATE products SET user_id = '9663fed8-8f87-44bf-aa1e-3462cb867a62' WHERE user_id IS NULL AND id IN ('35621f66-987c-4dfb-bba1-6f933540005e', 'e1748192-5ef5-4e53-9068-6afe64bb27a6');

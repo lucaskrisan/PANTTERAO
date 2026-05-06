@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nina Tracking™ — TV Mode */
+.nina-tv-mode {
+  font-size: 130%;
+  padding: 1.5rem;
+}
+.nina-tv-mode .text-2xl {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.nina-tv-mode .text-xl {
+  font-size: 2rem;
+}
+
+/* Nina Tracking™ — Custom scrollbar (terminal style) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(20, 184, 166, 0.3), rgba(212, 175, 55, 0.3));
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(20, 184, 166, 0.5), rgba(212, 175, 55, 0.5));
+}
+
+/* Subtle dark scrollbar for premium SaaS feel */
+.scrollbar-premium::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar-premium::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-premium::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.18);
+  border-radius: 3px;
+}
+.scrollbar-premium::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.35);
+}
+.scrollbar-premium {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 175, 55, 0.25) transparent;
+}
+.scrollbar-hidden::-webkit-scrollbar { display: none; }
+.scrollbar-hidden { scrollbar-width: none; }
+
+/* 3DS Challenge Modal */
+#challengeContainer iframe {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+  height: 600px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  background: white;
+  z-index: 99999;
+}
+
+/* PanteraPay Design System — Predador Estratégico */
+
+@layer base {
+  :root {
+    /* PantheraPay — Tactical Dark + Emerald */
+    --background: 220 20% 4%;
+    --foreground: 210 15% 93%;
+
+    --card: 215 18% 8%;
+    --card-foreground: 210 15% 93%;
+
+    --popover: 215 20% 9%;
+    --popover-foreground: 210 15% 93%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 215 14% 14%;
+    --secondary-foreground: 210 15% 90%;
+
+    --muted: 215 14% 11%;
+    --muted-foreground: 215 10% 48%;
+
+    --accent: 215 14% 16%;
+    --accent-foreground: 210 15% 93%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 12% 14%;
+    --input: 215 14% 11%;
+    --ring: 160 84% 39%;
+
+    --radius: 0.75rem;
+
+    /* Checkout */
+    --checkout-surface: 215 18% 8%;
+    --checkout-surface-foreground: 210 15% 93%;
+    --checkout-highlight: 160 84% 39%;
+    --checkout-highlight-foreground: 0 0% 0%;
+    --checkout-muted: 215 10% 40%;
+    --checkout-badge: 43 64% 52%;
+
+    /* Sidebar */
+    --sidebar-background: 220 22% 5%;
+    --sidebar-foreground: 215 10% 48%;
+    --sidebar-primary: 160 84% 39%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 215 14% 11%;
+    --sidebar-accent-foreground: 210 15% 93%;
+    --sidebar-border: 215 12% 14%;
+    --sidebar-ring: 160 84% 39%;
+
+    /* Member area */
+    --member-bg: 220 20% 4%;
+    --member-surface: 215 18% 8%;
+    --member-surface-hover: 215 14% 11%;
+    --member-surface-active: 215 14% 14%;
+    --member-foreground: 210 15% 93%;
+    --member-foreground-muted: 215 10% 48%;
+    --member-accent: 160 84% 39%;
+    --member-accent-glow: 160 90% 50%;
+    --member-border: 215 12% 14%;
+    --member-gradient-start: 160 84% 39%;
+    --member-gradient-end: 155 80% 34%;
+    --member-locked: 215 10% 20%;
+    --member-gold: 43 64% 52%;
+
+    /* Brand */
+    --brand-gradient: linear-gradient(135deg, #10B981, #059669, #D4AF37);
+    --brand-glow: 0 8px 32px -8px hsl(160 84% 39% / 0.35);
+
+    /* Vibranium accent */
+    --vibranium: 160 84% 39%;
+    --vibranium-glow: 160 90% 50%;
+
+    /* Glass */
+    --glass-border: 215 15% 20%;
+    --glass-bg: 215 18% 8% / 0.6;
+    --glass-shine: 210 15% 93% / 0.04;
+
+    /* Status */
+    --status-success: 160 84% 39%;
+    --status-warning: 45 100% 51%;
+    --status-error: 0 72% 51%;
+    --status-chargeback: 14 100% 50%;
+
+    /* Gold */
+    --gold: 43 64% 52%;
+    --gold-soft: 43 86% 69%;
+  }
+
+  /* Light override */
+  .light {
+    --background: 210 20% 97%;
+    --foreground: 215 18% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 18% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 18% 8%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 210 10% 93%;
+    --secondary-foreground: 215 18% 8%;
+
+    --muted: 210 10% 93%;
+    --muted-foreground: 215 10% 44%;
+
+    --accent: 210 10% 93%;
+    --accent-foreground: 215 18% 8%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 10% 88%;
+    --input: 210 10% 88%;
+    --ring: 160 84% 39%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border box-border;
+  }
+
+  html {
+    @apply overflow-x-hidden;
+  }
+
+  body {
+    @apply bg-background text-foreground min-h-screen overflow-x-hidden;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  }
+}

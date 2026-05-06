@@ -1,0 +1,1 @@
+ALTER TABLE public.products ADD COLUMN show_coupon boolean NOT NULL DEFAULT true;

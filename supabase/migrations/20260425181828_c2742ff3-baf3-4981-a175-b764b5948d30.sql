@@ -1,0 +1,1 @@
+DROP FUNCTION IF EXISTS public.list_orders_paginated(uuid, boolean, integer, integer, text, text, text, uuid, text, text);

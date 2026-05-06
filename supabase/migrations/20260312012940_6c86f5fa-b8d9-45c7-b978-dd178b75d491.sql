@@ -1,0 +1,1 @@
+ALTER TABLE public.product_pixels ADD COLUMN IF NOT EXISTS capi_token text DEFAULT NULL;

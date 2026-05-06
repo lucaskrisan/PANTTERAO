@@ -1,0 +1,1 @@
+ALTER TABLE public.abandoned_carts ADD COLUMN IF NOT EXISTS page_url text;

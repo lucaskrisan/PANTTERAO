@@ -1,0 +1,1 @@
+ALTER TABLE public.pixel_events ADD COLUMN customer_name text DEFAULT NULL;

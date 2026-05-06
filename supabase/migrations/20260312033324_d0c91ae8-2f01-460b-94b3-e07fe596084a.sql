@@ -1,0 +1,1 @@
+ALTER TABLE public.checkout_builder_configs ADD COLUMN price numeric NULL;

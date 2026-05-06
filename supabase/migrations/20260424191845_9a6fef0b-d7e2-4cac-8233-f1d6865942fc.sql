@@ -1,0 +1,1 @@
+DELETE FROM public.whatsapp_sessions WHERE tenant_id = '9663fed8-8f87-44bf-aa1e-3462cb867a62' AND status != 'connected';

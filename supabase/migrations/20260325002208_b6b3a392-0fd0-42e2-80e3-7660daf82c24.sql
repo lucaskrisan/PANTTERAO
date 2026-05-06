@@ -1,0 +1,1 @@
+DELETE FROM public.payment_gateways WHERE id = 'c44274cf-7d23-4dbf-9586-674808cf9693' AND user_id IS NULL;

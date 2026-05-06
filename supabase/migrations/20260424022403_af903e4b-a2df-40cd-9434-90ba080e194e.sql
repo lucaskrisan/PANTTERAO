@@ -1,0 +1,2 @@
+ALTER TABLE public.pixel_events ADD COLUMN IF NOT EXISTS event_value numeric;
+CREATE INDEX IF NOT EXISTS idx_pixel_events_purchase_value ON public.pixel_events (created_at DESC) WHERE event_name = 'Purchase' AND event_value IS NOT NULL;

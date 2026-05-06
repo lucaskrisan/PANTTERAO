@@ -1,0 +1,1 @@
+DROP FUNCTION IF EXISTS public.expire_stale_pending_orders();
