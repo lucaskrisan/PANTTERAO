@@ -1,1 +1,2 @@
-UPDATE internal_tasks SET status = 'done', title = '[RESOLVIDO] Falha no gateway Pagar.me (PIX)', updated_at = now() WHERE id = '4a7d0c00-d09a-4dfa-a55e-6277748e6eb1';
+-- Data from old project removed
+SELECT 1;

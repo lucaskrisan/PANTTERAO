@@ -1,10 +1,12 @@
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+
 CREATE TABLE public.webhook_endpoints (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id uuid NOT NULL,
   url text NOT NULL,
   events text[] NOT NULL DEFAULT '{"order.paid"}',
   active boolean NOT NULL DEFAULT true,
-  secret text NOT NULL DEFAULT encode(gen_random_bytes(32), 'hex'),
+  secret text NOT NULL DEFAULT encode(extensions.gen_random_bytes(32), 'hex'),
   created_at timestamptz NOT NULL DEFAULT now(),
   updated_at timestamptz NOT NULL DEFAULT now()
 );

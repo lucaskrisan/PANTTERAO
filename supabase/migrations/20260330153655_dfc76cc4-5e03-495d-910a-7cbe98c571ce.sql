@@ -1,1 +1,2 @@
-UPDATE public.profiles SET profile_completed = true WHERE id = 'fd418b32-308e-4ac7-a0e1-a6bf42f5abc1';
+-- Data from old project removed
+SELECT 1;

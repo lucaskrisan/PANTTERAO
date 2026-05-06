@@ -1,1 +1,2 @@
-DELETE FROM checkout_builder_configs WHERE id = '7db5e80c-57a0-4f21-a4f3-7076fddf5364';
+-- Data from old project removed
+SELECT 1;

@@ -1,1 +1,2 @@
-UPDATE payment_gateways SET environment = 'production' WHERE provider = 'asaas' AND user_id = 'c5d2095f-ad44-4884-91c3-89c0b73c5af2';
+-- Data from old project removed
+SELECT 1;

@@ -1,1 +1,2 @@
-DELETE FROM internal_tasks WHERE id = '925a0bf7-6ce6-4507-9ab1-d32223c233d9';
+-- Data from old project removed
+SELECT 1;
