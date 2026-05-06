@@ -17,6 +17,11 @@ dist-ssr
 .env.*
 !.env.example
 
+# Backup e dados sensíveis
+dados-antigos/
+dados-antigos-01/
+supabase/.temp/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
