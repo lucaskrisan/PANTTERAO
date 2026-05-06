@@ -20,6 +20,8 @@ dist-ssr
 # Backup e dados sensíveis
 dados-antigos/
 dados-antigos-01/
+xquads-temp/
+xquads-squads-main.zip
 supabase/.temp/
 
 # Editor directories and files
